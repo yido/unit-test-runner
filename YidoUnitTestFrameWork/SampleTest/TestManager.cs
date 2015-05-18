@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
-using HCMISCodedUITest.SampleTests;
 using Microsoft.VisualStudio.TestTools.UITest.Extension;
 using Microsoft.VisualStudio.TestTools.UITesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -52,8 +51,7 @@ namespace SampleTest
 
         private void LoadAppVersion()
         {
-            var receiveMap = new ReceiveCodedUITest();
-            TestSettings.AppVersion = receiveMap.LoadAppVersion();
+           // TestSettings.AppVersion = yourmap.LoadAppVersion();
         }
 
         public bool IsThereAnyHcmisInstance()
