@@ -60,19 +60,11 @@
   </Choose>
   <ItemGroup>
     <Compile Include="SampleTests\DataBaseTest.cs" />
-    <Compile Include="SampleTests\LoginUIMap.cs" />
-    <Compile Include="SampleTests\LoginUIMap.Designer.cs">
-      <DependentUpon>LoginUIMap.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SampleTests\ReceiveCodedUITest.cs" />
     <Compile Include="SampleTests\SampleUnitTest.cs" />
     <Compile Include="SampleTests\UnitTest1.cs" />
     <Compile Include="TestManager.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="SampleTests\LoginUIMap.uitest" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TestManager\TestManager.csproj">
