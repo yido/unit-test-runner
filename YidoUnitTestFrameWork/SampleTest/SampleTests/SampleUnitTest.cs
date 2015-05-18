@@ -1,8 +1,7 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestManager.Utilites.Attributes;
 
-namespace HCMISCodedUITest.SampleTests
+namespace SampleTest.SampleTests
 {
     [Module(Modules.Activities)]
     public class SampleUnitTest
