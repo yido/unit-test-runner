@@ -1,13 +1,11 @@
 ﻿using System.Reflection;
-using Microsoft.VisualStudio.TestTools.UITesting;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestManager.Helper;
 using TestManager.Utilites.Attributes;
 
-
-namespace HCMISCodedUITest.SampleTests
+namespace SampleTest.SampleTests
 {
-    [CodedUITest]
+   
     public class DataBaseTest
     {
         public DataBaseTest()
@@ -24,7 +22,7 @@ namespace HCMISCodedUITest.SampleTests
         public void DataBaseTestMethod2()
         {
             var description = MethodBase.GetCurrentMethod().GetTestMethodDescription();
-            var module = TestExtensions.GetTestModuleName<ReceiveCodedUITest>().GetName();
+            var module = TestExtensions.GetTestModuleName<SampleUnitTest>().GetName();
         }
         /// <summary>
         ///Gets or sets the test context which provides
