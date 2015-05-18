@@ -9,7 +9,7 @@
             //_main.TestInitialize();
             Playback.Initialize();
             _main = new Main();
-            //_main.RunSingleTest<Login_To_HCMIS>();
+            //_main.RunSingleTest<Login_To_Your_X_App>();
             _main.RunSingleTest<Receive_ReceivePO_Add>();
             Playback.Cleanup();
         }
