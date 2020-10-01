@@ -7,7 +7,7 @@ namespace TestManager.Services
     {
         //~ We will organize it soon ~//
         public HCMISDBTestContext():
-            base(@"Data Source=192.168.2.58\SqlServer;Initial Catalog=HCMISW;Integrated Security=False;User ID=hcmist;Password=8qnRuvKFDG3")
+            base(@"your-conn-string")
         {
         }
 
